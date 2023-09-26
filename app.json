@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "scheme": "mycoolredirect",
+    "name": "client",
+    "slug": "client",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.PicaPlant.client"
+    },
+    "android": {
+      "googleServicesFile":"./google-services.json",
+      "package": "com.PicaPlant.client",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "softwareKeyboardLayoutMode":"pan"
+
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b4685540-68d2-4df4-bcbf-baac16b48c19"
+      }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ]
+    },
+
+   "plugins": [
+    [
+       "expo-notifications",
+      {
+         "icon": "./local/assets/icon.png",
+        "color": "#ffffff"
+   }
+ ]
+]
+}

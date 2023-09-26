@@ -1,0 +1,10 @@
+{
+  "hostType": "lan",
+  "lanType": "ip",
+  "dev": true,
+  "minify": false,
+  "urlRandomness": "vzFHosM",
+  "https": false,
+  "scheme": "com.PicaPlant.client",
+  "devClient": false
+}

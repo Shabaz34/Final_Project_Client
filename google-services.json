@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "222431351949",
+    "project_id": "pic-a-plant",
+    "storage_bucket": "pic-a-plant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222431351949:android:2e8bd2cc7691fa03a47ec4",
+        "android_client_info": {
+          "package_name": "com.PicaPlant.client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222431351949-h1ulm3jsa1t5cmghgghtppfip4j67p6t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.PicaPlant.client",
+            "certificate_hash": "515338f03fc8f29b48536b4f5dc0d57b39f667df"
+          }
+        },
+        {
+          "client_id": "222431351949-0v7pa6sfl0i3ec6u0nd4t83ir0s5icfh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn0JyD_D8hQmbcrqgUWVDCNm-J0VrdOr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222431351949-0v7pa6sfl0i3ec6u0nd4t83ir0s5icfh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "222431351949-bf16s29kjk5uhqaamuf76bhln3o9ulq1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.PicaPlant.client"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
